@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Ruth-Ann Jackson | Developer</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+
+        <!-- NAVBAR -->
+         <header class="header">
+            <nav class="navbar">
+                <h1 class="logo">Ruth-Ann Jackson.dev</h1>
+
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    ☰
+                </button>
+
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Journey</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+         </header>
+
+         <!-- HERO -->
+          <section class="hero">
+            <h2>Hi, I'm Ruth-Ann Jackson</h2>
+            <p>Future Full-Stack Developer | Building scalable web applications</p>
+            <div class= "hero-buttons">
+                <a href="#projects" class="btn">Projects</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+          </section>
+
+          <!-- ABOUT -->
+           <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+            <p>
+                I'm a college student pursuing a career in full-stack development. I enjoy building web applications from the ground up-frontend interfaces, backend APIs, and databases.
+            </p>
+            </div>
+           </section>
+
+           <!-- PROJECTS -->
+            <section id="projects" class="section">
+                <h2>Projects</h2>
+
+                <div class="container">
+
+                    <div class="projects-grid">
+                        <article class="project-card">
+                        <h3>Portfolio Website</h3>
+                        <p>Personal website built with HTML, CSS, and JavaScript.</p>
+                        <p class="tech">HTML • CSS • JS </p>
+                        <a href="#" target="_blank">GitHub</a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>To-Do App</h3>
+                        <p>Task manager with persistent storage.</p>
+                        <p class="tech">JavaScript • LocalStorage </p>
+                        <a href="#" target="_blank">GitHub</a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Full-Stack App (Coming Soon)</h3>
+                        <p>API, database, authentication.</p>
+                        <p class="tech">Node • Express • MongoDB </p>
+                        <a href="#" target="_blank">GithHub</a>
+                    </article>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- SKILLS -->
+             <section id="skills" class="section">
+                <h2>Skills</h2>
+
+                <div class="container">
+                    <div class="skills-grid">
+                    <div>
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3 / Flexbox / Grid</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>Responsive Design</li>
+                            <li>React (Learning)</li>
+                            </ul>
+                    </div>
+
+                    <div>
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js (Learning)</li>
+                            <li>Express.js</li>
+                            <li>REST APIs</li>
+                            <li>Authentication (JWT)</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3>Database & Tools</h3>
+                        <ul>
+                            <li>MongoDB</li>
+                            <li>Git & GitHub</li>
+                            <li>Postman</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </div>
+
+                </div>
+                </div>
+             </section>
+
+             <!-- Experience -->
+              <section id="experience" class="section">
+                <div class="container">
+                    <h2>My Journey</h2>
+                <ul class="timeline">
+                    <li>🎓High School Graduate</li>
+                    <li>📘In College | BS in Computer Science</li>
+                    <li>📘Self-studying Frontend Development</li>
+                    <li>⚙️Learning Backend & Databases</li>
+                    <li>🚀Building Full-Stack Projects</li>
+                </ul>
+                </div>
+              </section>
+
+             <!-- CONTACT -->
+              <section id="contact" class="section">
+                <div class="container">
+                    <h2>Contact</h2>
+
+                <form class="contact-form">
+                    <input type="text" id="name" placeholder="Your Name" required />
+                    <input type="email" id="email" placeholder="Your Email" required />
+                    <textarea id="message" placeholder="Message"></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+
+                <p class="note">
+                    *Form backend coming soon (Node + Express)
+                </p>
+                </div>
+              </section>
+
+              <footer>
+                <p>© 2026 Ruth-Ann Jackson</p>
+              </footer>
+
+              <script src="script.js"></script>
+    </body>
+</html>
