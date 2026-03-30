@@ -129,6 +129,12 @@ header {
   color: #777;
 }
 
+.muted-tag {
+  color: #777;
+  font-size: 0.85em;
+  font-weight: 400;
+}
+
 /* SKILLS */
 .skills-list {
     display: flex;
